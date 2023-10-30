@@ -13,8 +13,8 @@ particlesJS("particles", {
         shape: {
             type: "circle",
             stroke: {
-                width: 0,
-                color: "#000000"
+                width: 5,
+                color: "#ffffff"
             }
         },
         opacity: {
