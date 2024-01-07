@@ -88,6 +88,7 @@ window.addEventListener('scroll', function () {
         scrollTopButton.style.display = 'none';
     }
 });
+<<<<<<< HEAD
 
 document.querySelector('#git-card').addEventListener('click', function () {
     window.open('https://github.com/PranavSingh31', '_blank');
@@ -105,3 +106,5 @@ document.querySelector('img').addEventListener('click', function () {
     alert('You discovered a secret feature!!');
     window.open('https://open.spotify.com/user/31gz5dmtop6p5nf7bplrwxdupz7y', '_blank');
 });
+=======
+>>>>>>> 8ce5d75a46eaf2e4417d8abcf45b41863b1df215
