@@ -88,8 +88,3 @@ window.addEventListener('scroll', function () {
         scrollTopButton.style.display = 'none';
     }
 });
-
-function displayMessage() {
-    alert("You discovered a secret feature!");
-}
-
