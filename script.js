@@ -87,7 +87,11 @@ window.Scroll = () => {
     } else {
         scrollTopButton.style.display = 'none';
     }
+<<<<<<< HEAD
 };
+=======
+});
+>>>>>>> eeba02a8ed751b91827bdac9c52b0373aa0e5c3a
 
 document.querySelector('#git-card').onClick = () => {
     window.open('https://github.com/PranavSingh31', '_blank');
@@ -104,4 +108,8 @@ document.querySelector('#linked-card').onClick = () => {
 document.querySelector('img').onClick = () => {
     alert('You discovered a secret feature!!');
     window.open('https://open.spotify.com/user/31gz5dmtop6p5nf7bplrwxdupz7y', '_blank');
+<<<<<<< HEAD
 };
+=======
+});
+>>>>>>> eeba02a8ed751b91827bdac9c52b0373aa0e5c3a
