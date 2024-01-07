@@ -80,29 +80,28 @@ function scrollToTop() {
     });
 }
 
-window.addEventListener('scroll', function () {
+window.Scroll = () => {
     var scrollTopButton = document.querySelector('.scroll-top');
     if (this.window.pageYOffset > 200) {
         scrollTopButton.style.display = 'block';
     } else {
         scrollTopButton.style.display = 'none';
     }
-});
+};
 
-document.querySelector('#git-card').addEventListener('click', function () {
+document.querySelector('#git-card').onClick = () => {
     window.open('https://github.com/PranavSingh31', '_blank');
-});
+};
 
-document.querySelector('#leet-card').addEventListener('click', function () {
+document.querySelector('#leet-card').onClick = () => {
     window.open('https://leetcode.com/psingh2_be20/', '_blank');
-});
+};
 
-document.querySelector('#linked-card').addEventListener('click', function () {
+document.querySelector('#linked-card').onClick = () => {
     window.open('https://www.linkedin.com/in/pranav-singh-10b8a4229/', '_blank');
-});
+};
 
-document.querySelector('img').addEventListener('click', function () {
+document.querySelector('img').onClick = () => {
     alert('You discovered a secret feature!!');
     window.open('https://open.spotify.com/user/31gz5dmtop6p5nf7bplrwxdupz7y', '_blank');
-});
-
+};
