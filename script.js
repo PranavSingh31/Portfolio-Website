@@ -89,19 +89,19 @@ window.Scroll = () => {
     }
 };
 
-document.querySelector('#git-card').onClick = () => {
+document.querySelector('#git-card').addEventListener('click', () => {
     window.open('https://github.com/PranavSingh31', '_blank');
-};
+});
 
-document.querySelector('#leet-card').onClick = () => {
+document.querySelector('#leet-card').addEventListener('click', () => {
     window.open('https://leetcode.com/psingh2_be20/', '_blank');
-};
+});
 
-document.querySelector('#linked-card').onClick = () => {
+document.querySelector('#linked-card').addEventListener('click', () => {
     window.open('https://www.linkedin.com/in/pranav-singh-10b8a4229/', '_blank');
-};
+});
 
-document.querySelector('img').onClick = () => {
+document.querySelector('img').addEventListener('click', () => {
     alert('You discovered a secret feature!!');
     window.open('https://open.spotify.com/user/31gz5dmtop6p5nf7bplrwxdupz7y', '_blank');
-};
+});
